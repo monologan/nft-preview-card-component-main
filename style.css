@@ -92,9 +92,13 @@
   }
 
 
-  .card__image:active {
+  .card__image:hover {
     background-color:var(--Cyan);
+    
+    transition: all .5s ease-in-out;
+    
   }
+
 
   .card__tittle:active {
     color:var(--Cyan);
